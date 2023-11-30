@@ -38,22 +38,22 @@ nav > ul > li {
 }
 			
 nav li a {
-    		background-color:#000;
+    		background-color:#123331;
 				color:#fff;
 				text-decoration:none;
 				padding:10px 12px;
-				display:block;
+  			display:block;
+				
 				
 }
 			
 nav li a:hover {
-				background-color:#434343;
+				background-color:#361348;
 }
 			
 nav li ul {
 				display:none;
 				position:absolute;
-				min-width:140px;
 }
 			
 nav li:hover  ul {
