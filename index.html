@@ -3,16 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <title>Hamburguesería Barrera</title>
+  <link rel="icon" href="icono.ico"> 
+
   <style>
+   
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
     }
     header {
-      background-color: #333;
+      background-image: url('fondo.jpg'); 
+      background-size: cover;
       color: #fff;
-      padding: 10px 0;
+      padding: 100px 0; 
       text-align: center;
     }
     nav ul {
@@ -29,15 +33,36 @@
       color: #fff;
       text-align: center;
       padding: 10px 0;
-      position: absolute;
-      bottom: 0;
-      width: 100%;
     }
+    .offer {
+      display: inline-block;
+      margin: 20px;
+      text-align: center;
+    }
+    .offer img {
+      width: 200px; 
+      height: auto;
+    }
+    .offer p {
+      background-color: #4d2323;
+      color: #333;
+      padding: 5px;
+      margin-top: 5px;
+    }
+
+    section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; 
+  }
+  section div {
+    text-align: center;
+  }
   </style>
 </head>
 <body>
   <header>
-    <h1>Hamburguesería Barrera</h1>
+    <h1 style="color: #0a0000;">Hamburguesería Barrera</h1>
     <nav>
       <ul>
         <li><a href="#inicio">Inicio</a></li>
@@ -48,11 +73,27 @@
       </ul>
     </nav>
   </header>
-  <main>
 
-  </main>
-
-
+  <section>
+    <div>
+      <a href="#carta"><img src="oferta1.jpg" alt="Oferta 1"></a>
+      <p>¡Nuestras hamburguesas especiales!</p>
+    </div>
+    <div>
+      <a href="#carta"><img src="oferta2.jpg" alt="Oferta 2"></a>
+      <p>¡No te pierdas nuestras promociones!</p>
+    </div>
+    <div>
+      <a href="#carta"><img src="oferta3.jpg" alt="Oferta 3"></a>
+      <p>¡Saborea nuestras nuevas creaciones!</p>
+    </div>
+    <div>
+      <a href="#carta"><img src="oferta4.jpg" alt="Oferta 4"></a>
+      <p>¡Descubre nuestras deliciosas opciones!</p>
+    </div>
+  
+  </section>
+ 
   <footer>
     <p>&copy; 2023 Hamburguesería Barrera. Todos los derechos reservados. | Contacto: info@hamburgueseriabarrera.com</p>
   </footer>
