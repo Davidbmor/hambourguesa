@@ -5,6 +5,8 @@
     <title>Hamburguesería Barrera</title>
     <link rel="icon" href="Imagenes/4074170.ico">
     <link rel="stylesheet" type="text/css" href="estilo/estilo.css">
+    <link rel="stylesheet" type="text/css" href="estilo/estilo3.css">
+
 
   </head>
   <style> header {
@@ -36,27 +38,33 @@
         style="padding: 8px 15px; background-color: #FFA500; color: white; border: none;">Buscar</button>
     </div>
     <section>
-      <div>
-        <a href="#carta"><img src="Imagenes/oferta1.png" alt="Oferta 1"
-            width="190" height="140"></a>
-        <p>¡Nuestras hamburguesas especiales!</p>
+        
+  <div class="pedido-form">
+    <h2>Realizar Pedido</h2>
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required><br><br>
+      
+      <label for="telefono">Teléfono:</label>
+      <input type="tel" id="telefono" name="telefono" required><br><br>
+      
+      <label for="correo">Correo Electrónico:</label>
+      <input type="email" id="correo" name="correo" required><br><br>
+      
+      <label for="tipo_entrega">Tipo de Entrega:</label>
+      <select id="tipo_entrega" name="tipo_entrega">
+        <option value="recoger">Recoger en tienda</option>
+        <option value="domicilio">Entrega a domicilio</option>
+      </select><br><br>
+      
+      <div id="direccion" style="display: none;">
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion"><br><br>
       </div>
-      <div>
-        <a href="#ofertas.html"><img src="Imagenes/oferta2.png" alt="Oferta 2"
-            width="190" height="140"></a>
-        <p>¡No te pierdas nuestras promociones!</p>
-      </div>
-      <div>
-        <a href="#ofertas.html"><img src="Imagenes/oferta3.png" alt="Oferta 3"
-            width="190" height="140"></a>
-        <p>¡Saborea nuestras nuevas creaciones!</p>
-      </div>
-      <div>
-        <a href="#ofertas.html"><img src="Imagenes/oferta4.png" alt="Oferta 4"
-            width="190" height="140"></a>
-        <p>¡Descubre nuestras deliciosas opciones!</p>
-      </div>
-
+      
+      <input type="submit" value="Realizar Pedido">
+    </form>
+  </div>
     </section>
 
     <footer>
