@@ -3,75 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <title>Carta - Hamburguesería Barrera</title>
+  <link rel="stylesheet" type="text/css" href="estilo/estilo2.css">
   <style>
-  
     header {
-      background-image: url('fondo.jpg'); 
-      background-size: cover;
-      color: #070000;
-      padding: 100px 0; 
-      text-align: center;
-    }
-    nav ul {
-      list-style: none;
-      padding: 0;
-      text-align: center;
-    }
-    nav ul li {
-      display: inline;
-      margin-right: 20px;
-    }
-    footer {
-      background-color: #333;
-      color: #fff;
-      text-align: center;
-      padding: 10px 0;
-    }
-    section {
-     
-      text-align: center;
-      padding: 20px;
-    }
-    .submenu ul {
-      list-style: none;
-      display: flex;
-      justify-content: center;
-      padding: 0;
-    }
-    .submenu ul li {
-      margin: 0 10px;
-    }
-    .order-button {
-      display: block;
-      margin: 20px auto;
-      padding: 10px 20px;
-      font-size: 16px;
-      text-decoration: none;
-      background-color: #FFA500;
-      color: #fff;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-    .order-button:hover {
-      background-color: #FF8000;
-    }
+    background-image: url("Imagenes/logo.jpg"); 
+  }
   </style>
 </head>
 <body>
   <header>
-    <h1>Hamburguesería Barrera</h1>
-    <nav>
-      <ul>
-        <li><a href="#inicio">Inicio</a></li>
-        <li><a href="#carta">Carta</a></li>
-        <li><a href="#acerca">Acerca de</a></li>
-        <li><a href="#contacto">Contacto</a></li>
-        <li><a href="#pedido">Pedido</a></li>
-      </ul>
-    </nav>
+    <h1 style="color: #fcfcfc; background-color: #FFA500; margin-bottom: 0;">Hamburguesería
+      Barrera</h1>
+      <nav style="background-color: #FFA500; padding: 10px;">
+        <ul style="list-style: none; padding: 0; margin: 0; text-align: center;">
+            <li style="display: inline; margin-right: 20px;"><a href="index.html" style="color: #fff; text-decoration: none;">Inicio</a></li>
+          <li style="display: inline; margin-right: 20px;"><a href="Carta.html" style="color: #fff; text-decoration: none;">Carta</a></li>
+          <li style="display: inline; margin-right: 20px;"><a href="#acerca" style="color: #fff; text-decoration: none;">Acerca de</a></li>
+          <li style="display: inline; margin-right: 20px;"><a href="#contacto" style="color: #fff; text-decoration: none;">Contacto</a></li>
+          <li style="display: inline; margin-right: 20px;"><a href="#pedido" style="color: #fff; text-decoration: none;">Pedido</a></li>
+        </ul>
+      </nav>
   </header>
-
+  <div class="search-bar" style="text-align: center; margin-bottom: 20px;">
+    <input type="text" placeholder="Buscar..." style="padding: 8px;">
+    <button
+      style="padding: 8px 15px; background-color: #FFA500; color: white; border: none;">Buscar</button>
+  </div>
   <section>
     <h2>Carta</h2>
     <div class="submenu">

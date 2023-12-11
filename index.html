@@ -1,101 +1,67 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>Hamburguesería Barrera</title>
-  <link rel="icon" href="icono.ico"> 
+  <head>
+    <meta charset="UTF-8">
+    <title>Hamburguesería Barrera</title>
+    <link rel="icon" href="Imagenes/4074170.ico">
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css">
 
-  <style>
-   
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background-image: url('fondo.jpg'); 
-      background-size: cover;
-      color: #fff;
-      padding: 100px 0; 
-      text-align: center;
-    }
-    nav ul {
-      list-style: none;
-      padding: 0;
-      text-align: center;
-    }
-    nav ul li {
-      display: inline;
-      margin-right: 20px;
-    }
-    footer {
-      background-color: #333;
-      color: #fff;
-      text-align: center;
-      padding: 10px 0;
-    }
-    .offer {
-      display: inline-block;
-      margin: 20px;
-      text-align: center;
-    }
-    .offer img {
-      width: 200px; 
-      height: auto;
-    }
-    .offer p {
-      background-color: #4d2323;
-      color: #333;
-      padding: 5px;
-      margin-top: 5px;
-    }
+  </head>
+  <style> header {
+    background-image: url("Imagenes/logo.jpg"); 
+    } 
+    </style>
+  <body>
+    <header>
+      <h1 style="color: #fcfcfc; background-color: #FFA500; margin-bottom: 0;">Hamburguesería
+        Barrera</h1>
+      <nav style="background-color: #FFA500; padding: 10px;">
+        <ul style="list-style: none; padding: 0; margin: 0; text-align: center;">
+          <li style="display: inline; margin-right: 20px;"><a href="index.html"
+              style="color: #fff; text-decoration: none;">Inicio</a></li>
+          <li style="display: inline; margin-right: 20px;"><a href="Carta.html"
+              style="color: #fff; text-decoration: none;">Carta</a></li>
+          <li style="display: inline; margin-right: 20px;"><a href="#acerca"
+              style="color: #fff; text-decoration: none;">Acerca de</a></li>
+          <li style="display: inline; margin-right: 20px;"><a href="#contacto"
+              style="color: #fff; text-decoration: none;">Contacto</a></li>
+          <li style="display: inline; margin-right: 20px;"><a href="#pedido"
+              style="color: #fff; text-decoration: none;">Pedido</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="search-bar" style="text-align: center; margin-bottom: 20px;">
+      <input type="text" placeholder="Buscar..." style="padding: 8px;">
+      <button
+        style="padding: 8px 15px; background-color: #FFA500; color: white; border: none;">Buscar</button>
+    </div>
+    <section>
+      <div>
+        <a href="#carta"><img src="Imagenes/oferta1.png" alt="Oferta 1"
+            width="190" height="140"></a>
+        <p>¡Nuestras hamburguesas especiales!</p>
+      </div>
+      <div>
+        <a href="#ofertas.html"><img src="Imagenes/oferta2.png" alt="Oferta 2"
+            width="190" height="140"></a>
+        <p>¡No te pierdas nuestras promociones!</p>
+      </div>
+      <div>
+        <a href="#ofertas.html"><img src="Imagenes/oferta3.png" alt="Oferta 3"
+            width="190" height="140"></a>
+        <p>¡Saborea nuestras nuevas creaciones!</p>
+      </div>
+      <div>
+        <a href="#ofertas.html"><img src="Imagenes/oferta4.png" alt="Oferta 4"
+            width="190" height="140"></a>
+        <p>¡Descubre nuestras deliciosas opciones!</p>
+      </div>
 
-    section {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px; 
-  }
-  section div {
-    text-align: center;
-  }
-  </style>
-</head>
-<body>
-  <header>
-    <h1 style="color: #0a0000;">Hamburguesería Barrera</h1>
-    <nav>
-      <ul>
-        <li><a href="#inicio">Inicio</a></li>
-        <li><a href="#carta">Carta</a></li>
-        <li><a href="#acerca">Acerca de</a></li>
-        <li><a href="#contacto">Contacto</a></li>
-        <li><a href="#pedido">Pedido</a></li>
-      </ul>
-    </nav>
-  </header>
+    </section>
 
-  <section>
-    <div>
-      <a href="#carta"><img src="oferta1.jpg" alt="Oferta 1"></a>
-      <p>¡Nuestras hamburguesas especiales!</p>
-    </div>
-    <div>
-      <a href="#carta"><img src="oferta2.jpg" alt="Oferta 2"></a>
-      <p>¡No te pierdas nuestras promociones!</p>
-    </div>
-    <div>
-      <a href="#carta"><img src="oferta3.jpg" alt="Oferta 3"></a>
-      <p>¡Saborea nuestras nuevas creaciones!</p>
-    </div>
-    <div>
-      <a href="#carta"><img src="oferta4.jpg" alt="Oferta 4"></a>
-      <p>¡Descubre nuestras deliciosas opciones!</p>
-    </div>
-  
-  </section>
- 
-  <footer>
-    <p>&copy; 2023 Hamburguesería Barrera. Todos los derechos reservados. | Contacto: info@hamburgueseriabarrera.com</p>
-  </footer>
-</body>
+    <footer>
+      <p>&copy; 2023 Hamburguesería Barrera. Todos los derechos reservados. |
+        Contacto: info@hamburgueseriabarrera.com</p>
+    </footer>
+  </body>
 </html>
